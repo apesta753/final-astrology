@@ -1,0 +1,70 @@
+// Scss Document
+
+@import '~bootstrap/scss/bootstrap';
+
+body {
+margin: 3%; 
+font-family: sans-serif;
+text-align: center;
+background: #0F0F0F url("cosmos.jpg");
+	background-size: 100%;
+color:#FFFFFF;
+}
+
+h1{
+	font-size: 50px;
+	padding-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #C529E9;
+}
+
+h4{
+	margin: 5px;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+button{
+	margin: 10px;
+}
+
+p{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* -----------------------------
+   Styles for nav
+   ----------------------------- */
+
+.header{
+	color:#272727;
+	padding: 1%;
+}
+
+#main-nav{
+	padding: 2%;
+	position: absolute;
+}
+
+ul {
+	list-style: none;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  }
+
+li {
+	float: left;
+	position: relative;
+	width: 12em;
+	text-align: center;
+  }
+
+li ul {
+	display: none;
+	top: 1.7em;
+	bottom: 1.7em;
+	left: 0;
+	position: absolute;
+}
